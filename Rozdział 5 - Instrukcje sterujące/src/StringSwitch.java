@@ -3,14 +3,14 @@ public class StringSwitch {
 
 	public static void main(String[] args) {
 		String str = "dwa";
-		switch(str) {
+		switch (str) {
 		case "jeden":
 			System.out.println("jeden");
 			break;
-		case "dwa" :
+		case "dwa":
 			System.out.println("dwa");
 			break;
-		case "trzy" :
+		case "trzy":
 			System.out.println("trzy");
 			break;
 		default:
