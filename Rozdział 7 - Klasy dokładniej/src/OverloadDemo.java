@@ -22,6 +22,15 @@ class Overload {
 public class OverloadDemo {
 
 	public static void main(String[] args) {
+		Overload ob = new Overload();
+		double result;
+		
+		//Wywo³anie wszystkich wersji metody test
+		ob.test();
+		ob.test(10);
+		ob.test(10, 20);
+		result = ob.test(123.25);
+		System.out.println("wynik wykonania ob.test(123.25): " + result);
 		
 	}
 
